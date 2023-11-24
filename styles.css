@@ -1,0 +1,222 @@
+
+footer {
+    background-color: rgba(11, 211, 71, 0.911);
+    color: #0f0247;
+    padding: 40px;
+    font-size: 1.2em;
+    font-weight: bold;
+    font-family: Cambria, Cochin, Georgia, Times, 'Times New Roman', serif;
+    column-count: 3;
+    margin: 0;
+}
+header{
+    background-image: linear-gradient(rgb(35, 6, 48), rgb(16, 6, 43));
+    color: #ffffff;
+}
+.sidebar{
+    background-color: #2b2626;
+}
+
+
+body, h1, h2, p, ul, li, address {
+    margin: 0;
+    padding: 0;
+}
+h1 {
+    justify-content: center;
+}
+#PAGINA0 {
+    background-image: url(img/fondo1.jpg);
+    background-size:cover;
+}
+#PAGINA1{
+    background-image: url(img/fondo2.jpg);
+    background-size: cover;
+}
+#PAGINA2{
+    background-image: url(img/fondo3.jpg);
+    background-size: cover;
+}
+#PAGINA3{
+    background-image: url(img/fondo4.jpg);
+    background-size: cover;
+}
+
+header {
+    background-image: linear-gradient(rgb(48, 2, 74), rgb(16, 6, 43));
+    color: #ffffff;
+    padding: 20px;
+    text-align: center;
+    font-size: 2rem;
+}
+header h1 {
+    font-size: 3rem;
+}
+
+nav ul {
+    list-style: none;
+  }
+  
+  nav li {
+    display: inline;
+    margin-right: 20px;
+  }
+  
+  nav li a {
+    transition: font-size 0.1s ease-in-out;
+  }
+  
+  nav li a:hover {
+    font-size: 1.25em;
+  }
+
+nav a {
+    color: #fff;
+    text-decoration: none;
+}
+
+section {
+    padding: 40px;
+    background-color: #fff;
+    margin: 20px;
+}
+.imgs{
+    padding: 40px;
+    margin: 40px;
+    border-radius: 20px;
+    border: 5px dashed tomato;
+    align-items: center;
+    text-align: center;
+}
+.imgs img{
+    width: 600px;
+}
+
+
+
+a {
+    color: #0073e6;
+    text-decoration: none;
+}
+
+a:hover {
+    text-decoration: underline;
+}
+ul {
+    list-style: disc;
+}
+.sidebar {
+    background-color: #2b2626;
+    float: right;
+    width: 15%;
+    padding-top: 20px;
+    position: fixed;
+    margin-top: 50px;
+    right: 0px;
+}
+html {
+    scroll-behavior: smooth;
+}
+
+section{
+    border-radius: 30px;
+    margin: 20px;
+    padding: 40px;
+    width: 60%;
+    background-color: antiquewhite;
+
+}
+section img{
+    width: 300px;
+    border-radius: 20px;
+    top: 0;
+    display: inline-block;
+}
+#subtitulo-0{
+    text-align: center;
+    margin: 35px;
+    padding: 20px;
+    border: 10px dashed greenyellow     ;
+    border-radius: 0px 60px 60px 0px;
+    background-image: linear-gradient(rgb(214, 28, 90),rgb(141, 32, 168));
+    color: aliceblue;
+    font-size: 2em;
+    font-family: Tahoma, Geneva, Verdana, sans-serif;
+}
+
+#subtitulo-1{
+    text-align: center;
+    margin: 35px;
+    padding: 20px;
+    border: 10px dashed greenyellow     ;
+    border-radius: 0px 60px 60px 0px;
+    background-image: linear-gradient(rgb(28, 78, 214),rgb(141, 32, 168));
+    color: aliceblue;
+    font-size: 2em;
+    font-family: Tahoma, Geneva, Verdana, sans-serif;
+}
+
+
+#subtitulo-2{
+    text-align: center;
+    margin: 35px;
+    padding: 20px;
+    border: 10px dashed greenyellow     ;
+    border-radius: 0px 60px 60px 0px;
+    background-image: linear-gradient(rgb(133, 214, 28),rgb(141, 32, 168));
+    color: aliceblue;
+    font-size: 2em;
+    font-family: Tahoma, Geneva, Verdana, sans-serif;
+}
+
+#subtitulo-3{
+    text-align: center;
+    margin: 35px;
+    padding: 20px;
+    border: 10px dashed greenyellow     ;
+    border-radius: 0px 60px 60px 0px;
+    background-image: linear-gradient(rgb(214, 155, 28),rgb(141, 32, 168));
+    color: aliceblue;
+    font-size: 2em;
+    font-family: Tahoma, Geneva, Verdana, sans-serif;
+}
+
+
+.contacto{
+    background-image: linear-gradient(#e00e0e, #e0cb0e);
+    text-align: center;
+    font-size: 1.5em;
+    color: aliceblue;
+    padding: 250px;
+    margin: 60px;
+    border-radius: 150px;
+    font-weight: bolder;
+}
+.video-cont{
+    display: inline-block;
+    background-color: antiquewhite;
+    padding: 20px;
+    margin: 20px;
+    border-radius: 80px;
+    text-align: center;
+    justify-content: center;
+}
+.vid{
+    border: 30px inherit rgb(135, 187, 222);
+    border-radius: 20px;
+    text-align: center;
+}
+.center{
+    align-items: center;
+    justify-content: center;
+    text-align: center  ;
+}
+
+.text{
+    font-size: 1.5em;
+    background-color: rgb(21, 241, 69);
+    color: #2b2626;
+    margin: 20px;
+    padding: 40px;
+    border-radius: 50px;
+}
